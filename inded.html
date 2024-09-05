@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex justify-center items-center h-screen">
+    <div class="gallery-container bg-gray-300 p-8 rounded-lg shadow-md">
+      <h1 class="text-2xl font-bold mb-4">Dynamic Image Gallery</h1>
+      <input type="text" id="image-url" placeholder="Enter image URL" class="px-4 py-2 w-72 mb-4 border rounded-lg border-gray-300">
+      <button id="add-image-btn" class="px-6 py-3 bg-blue-500 text-white rounded-lg cursor-pointer hover:bg-blue-600">Add Image</button>
+      <div id="gallery" class="flex flex-wrap gap-4 mt-8"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
